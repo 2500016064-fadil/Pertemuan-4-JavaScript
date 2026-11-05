@@ -1,0 +1,85 @@
+/* Pengaturan dasar halaman */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Kotak kalkulator */
+.kalkulator {
+  background: #ffffff;
+  padding: 24px 28px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  width: 320px;
+}
+
+.kalkulator h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 0;
+}
+
+/* Label dan input */
+label {
+  display: block;
+  margin-top: 12px;
+  color: #34495e;
+  font-size: 14px;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 4px;
+  border: 1px solid #ccd4da;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+/* Grid tombol operasi */
+.tombol-operasi {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.tombol-operasi button {
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.tombol-operasi button:hover {
+  background-color: #2980b9;
+}
+
+/* Area hasil */
+#hasil {
+  margin-top: 18px;
+  padding: 12px;
+  background-color: #eef6fb;
+  border-left: 4px solid #3498db;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #2c3e50;
+  text-align: center;
+  min-height: 20px;
+}
+
+/* Kelas untuk pesan error (diatur dari JavaScript) */
+.error {
+  color: red !important;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator Sederhana</title>
+  <!-- Menghubungkan file CSS eksternal -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="kalkulator">
+    <h2>Kalkulator Sederhana</h2>
+
+    <label for="angka1">Angka Pertama:</label>
+    <input type="number" id="angka1" placeholder="Masukkan angka pertama">
+
+    <label for="angka2">Angka Kedua:</label>
+    <input type="number" id="angka2" placeholder="Masukkan angka kedua">
+
+    <div class="tombol-operasi">
+      <button data-op="+">+</button>
+      <button data-op="-">-</button>
+      <button data-op="*">×</button>
+      <button data-op="/">÷</button>
+    </div>
+
+    <div id="hasil">Hasil akan ditampilkan di sini</div>
+  </div>
+
+  <!-- Praktik terbaik: script eksternal diletakkan sebelum penutup </body> -->
+  <script src="script.js"></script>
+</body>
+</html>
