@@ -1,4 +1,3 @@
-/* Pengaturan dasar halaman */
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f6f8;
@@ -9,7 +8,7 @@ body {
   margin: 0;
 }
 
-/* Kotak kalkulator */
+
 .kalkulator {
   background: #ffffff;
   padding: 24px 28px;
@@ -24,7 +23,7 @@ body {
   margin-top: 0;
 }
 
-/* Label dan input */
+
 label {
   display: block;
   margin-top: 12px;
@@ -42,7 +41,7 @@ input[type="number"] {
   font-size: 15px;
 }
 
-/* Grid tombol operasi */
+
 .tombol-operasi {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -66,7 +65,7 @@ input[type="number"] {
   background-color: #2980b9;
 }
 
-/* Area hasil */
+
 #hasil {
   margin-top: 18px;
   padding: 12px;
@@ -79,7 +78,7 @@ input[type="number"] {
   min-height: 20px;
 }
 
-/* Kelas untuk pesan error (diatur dari JavaScript) */
+
 .error {
   color: red !important;
 }

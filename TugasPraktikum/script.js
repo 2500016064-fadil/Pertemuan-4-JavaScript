@@ -46,7 +46,7 @@ function hitung(operasi) {
   tampilkanPesan(hasilEl, angka1 + " " + operasi + " " + angka2 + " = " + hasil, false);
 }
 
-// Helper: menampilkan pesan (normal atau error)
+// Untuk menampilkan pesan (normal atau error)
 function tampilkanPesan(el, pesan, isError) {
   el.textContent = pesan;
   el.classList.toggle("error", isError);
